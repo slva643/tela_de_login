@@ -1,0 +1,118 @@
+* {
+   margin: 0px;
+   padding: 0px;
+}
+
+/*Formatações no corpo da html*/
+body {
+
+   background-image: url("../image/Meu\ projeto.jpg");
+   background-size: 1350px;
+   background-repeat: no-repeat;
+   color: white;
+   font-family: Arial, Helvetica, sans-serif;
+}
+
+/*Formatações nos butões*/
+input {
+   display: block;
+   height: 40px;
+   width: 350px;
+   margin: 8px;
+   border-radius: 30px;
+   border: 1px solid black;
+   font-size: 16pt;
+   padding: 10px 20px;
+   background-color: rgb(255, 255, 255, 0.1);
+   color: white;
+   outline: none;
+}
+
+/*Formatações na id*/
+div#corpo-form {
+   width: 420px;
+   margin: 150px auto 0px auto;
+}
+
+/*Formatações da id do cadastro*/
+div#corpo-form-cad {
+   width: 420px;
+   margin: 2px auto 0px auto;
+}
+
+/*Formatações no class do link*/
+.volt a {
+   display: block;
+   text-align: left;
+   margin: 2px auto 0px 10px;
+   padding: 20px;
+   font-size: 19px;
+}
+
+/*Formatações no título*/
+h1 {
+   text-align: center;
+   padding: 20px;
+}
+
+/*Formatações no link*/
+a {
+   color: white;
+   text-decoration: none;
+   text-align: center;
+   display: block;
+}
+
+a:hover {
+   text-decoration: underline;
+}
+
+
+/*Formatações no submit do butão*/
+input[type=submit] {
+   background-color: #FF0066;
+   border: none;
+   cursor: pointer;
+   display: block;
+   width: 390px;
+}
+
+/*Reconhecimento de cada navegador*/
+
+/*Webkit browsers*/
+::-webkit-input-placeholder {
+   color: #FFF;
+}
+
+/*Mozilla Firefox 19+*/
+:-moz-placeholder {
+   color: #fff;
+}
+
+/*Internt Explore 10+*/
+::-moz-placeholder {
+   color: #fff;
+}
+
+:-ms-input-placeholder {
+   color: #FFF;
+}
+
+
+/*Mensagem que vai aparece na tela dando informação*/
+div#msg-sucesso {
+   width: 420px;
+   margin: 10px auto;
+   padding: 10px;
+   background-color: rgb(50, 205, .3);
+   border: 1px solid rgb(34, 139, 34);
+}
+
+div.msg-erro {
+   width: 420px;
+   margin: 10px auto;
+   padding: 10px;
+   background-color: darkgrey;
+   border: 1px solid rgb(165, 42, 42);
+   text-align: center;
+}
